@@ -1,0 +1,14 @@
+ CREATE TABLE registrazioni(
+ID int PRIMARY KEY auto_increment not null,
+numeroP int not nul,
+giorno varchar(20) not null,
+data date not null,
+tempo time not null)
+
+
+CREATE TABLE ordini(
+ID int PRIMARY KEY auto_increment not null,
+cliente varchar(100) not null,
+prodotti varchar(50) not null,
+data date not null,
+tempo time not null)
